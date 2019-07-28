@@ -1,0 +1,36 @@
+body{
+	background: url(../images/fondo.jpg);
+	-webkit-background-size: fixed;
+	-moz-background-size: fixed;
+	-o-background-size: fixed;
+	background-size: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+h1{
+	color: white;
+	margin-top: 100px;
+	text-align: center;
+	font-family: cursive;
+	font-size: 60px;
+}
+input{
+	width: 300px;
+	height: 35px;
+}
+textarea{
+	width: 600px;
+	height: 70px;
+	margin-top: 5px;
+}
+input, textarea{
+	background: transparent;
+	margin: solid 2px white;
+	color: white;
+}
+input[type=submit]{
+	color: white;
+}
+::webkit-input-placeholer{
+	color: white;
+}
